@@ -1,12 +1,57 @@
 <?php
 
 return [
-		'user-management' => [		'title' => 'User management',		'fields' => [		],	],
-		'roles' => [		'title' => 'Roles',		'fields' => [			'title' => 'Title',		],	],
-		'users' => [		'title' => 'Users',		'fields' => [			'name' => 'Name',			'email' => 'Email',			'password' => 'Password',			'role' => 'Role',			'remember-token' => 'Remember token',		],	],
-		'categories' => [		'title' => 'Categories',		'fields' => [			'name' => 'Name',		],	],
-		'cities' => [		'title' => 'Cities',		'fields' => [			'name' => 'Name',		],	],
-		'stores' => [		'title' => 'Stores',		'fields' => [			'categories' => 'Categories',			'city' => 'City',			'name' => 'Name',			'description' => 'Description',			'address' => 'Address',			'phone' => 'Phone',			'photo' => 'Photo',		],	],
+	
+	'user-management' => [
+		'title' => 'User management',
+		'fields' => [
+		],
+	],
+	
+	'roles' => [
+		'title' => 'Roles',
+		'fields' => [
+			'title' => 'Title',
+		],
+	],
+	
+	'users' => [
+		'title' => 'Users',
+		'fields' => [
+			'name' => 'Name',
+			'email' => 'Email',
+			'password' => 'Password',
+			'role' => 'Role',
+			'remember-token' => 'Remember token',
+		],
+	],
+	
+	'categories' => [
+		'title' => 'Categories',
+		'fields' => [
+			'name' => 'Name',
+		],
+	],
+	
+	'cities' => [
+		'title' => 'Cities',
+		'fields' => [
+			'name' => 'Name',
+		],
+	],
+	
+	'stores' => [
+		'title' => 'Stations',
+		'fields' => [
+			'categories' => 'Type',
+			'city' => 'City',
+			'name' => 'Name',
+			'description' => 'Description',
+			'address' => 'Address',
+			'phone' => 'Lat, Long',
+			'photo' => 'Photo',
+		],
+	],
    
 	'qa_create' => 'Create',
 	'qa_save' => 'Save',
@@ -243,5 +288,5 @@ return [
 	'qa_parse_csv' => 'Parse CSV',
 	'qa_import_data' => 'Import data',
 	'qa_imported_rows_to_table' => 'Imported :rows rows to :table table',
-	'quickadmin_title' => 'LaraMapper',
+	'quickadmin_title' => 'Smart AirQuality',
 ];
